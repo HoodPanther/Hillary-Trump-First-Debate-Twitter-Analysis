@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+        <title>Hillary and Trump: The Debate Through Twitter </title>
+        <meta name="tags" content="Hillary Clinton, Donald Trump, twitter, data analysis" />
+        <meta name="date" content="2016-09-27 21:00" />
+        <meta name="modified" content="2016-09-27 21:00" />
+        <meta name="category" content="Projects" />
+        <meta name="author" content="Andres Avalos" />
+        <meta name="summary" content="Analysis of almost a quarter-million tweets about the candidates during the debate." />
+
+        <style>
+
+            body {  font-family: 'Open Sans', sans-serif;
+                    font-size:15px;
+                    color: #666;
+                    background-color: white;
+                    padding-top: 0px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 49em;
+                    text-align:justify;
+
+
+                }
+
+            h1 {
+                text-align: left;
+                font-size:5em;
+                margin-bottom:0px;
+                display:inline;
+            }
+
+            h2 {
+                font-size:3em;
+                margin-top:0px;
+                margin-bottom:0px;
+                display:inline;
+            }
+
+            h3 {
+                color:#666;
+                margin-top:0px;
+                font-size:1em;
+                padding-left:8px;
+                font-family: 'Pacifico', cursive;
+                font-weight:lighter;
+            }
+
+
+        a:link    {color:#FF69B4; background-color:transparent; text-decoration:none}
+        a:visited {color:#FF69B4; background-color:transparent; text-decoration:none}
+        a:hover   {color:orange; background-color:transparent; text-decoration:underline}
+        a:active  {color:#FF69B4; background-color:transparent; text-decoration:underline}
+        </style>
+    </head>
+    <body>
+        <h1 style='color:blue;'>Hillary</h1><h1> and </h1><h1 style='color:crimson;'>Trump</h1><h1>:</h1>
+        <h2>The Debate Through </h2><h2 style='color:#00aced'>Twitter</h2>
+        <h3>by Andres Avalos</h3>
+
+
+        <div style='padding:2px;'>
+        On Monday, September 26, Hillary Clinton and Donald Trump engaged in the first Presidential Debate of the election season. Being the most-watched presidential debate in history, it should come to no surprise that it's looking to be the <a href="https://twitter.com/mikenizza/status/780613502260088832">most tweeted</a> debate ever, too. The following is an analysis of 243,821 tweets about the candidates collected through the duration of the event.
+        <br>
+        <br>
+        It seems that with every event Trump manages to gain the spotlight not only in the media, but in the public discussion as well.<img src="images/tweetsaboutcandidatespie.png" alt="ClintonTrump Pie Chart" style='float:right;margin-left:10px;margin-top:10px;'> <b>149,834</b> of the tweets pertained strictly to Donald Trump, while only <b>20,469</b> of the tweets were about Hillary Clinton.
+        <br>
+        <br>
+        Using a natural language processing library, the tweets were each assigned a decimal value between -1 and 1, indicating whether they were negative (-1 is most negative) or positive sentiments. Both candidates had more positive tweets about them than negative. There were <b>1.4</b> times as many good tweets about Trump as there were negative, while Hillary Clinton had a far greater margin. Her ratio? <b>2.5</b>. This means most of the tweets about Hillary had good things to say about her, indicating that she did well in the debate, and that emotions about Trump's performance were more spread out.
+        <br>
+        <p style='text-align:center'>
+        <img src="images/averagetweetpolarity.png" alt="ClintonTrump Average Tweet Sentiment Chart" style='text-align:center'>
+        </p>
+
+        </div>
+    </body>
+</html>
