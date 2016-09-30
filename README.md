@@ -9,6 +9,6 @@ This repo includes everything I needed to make and use to eventually publish thi
 - The **images** folder contains all the charts I made in .png format.
 - The **website** folder contains the only necessary files for creating [the webpage](http://andresavalos.com/hillary-and-trump-the-debate-through-twitter.html). The main thing to see here is the HTML file.
 
-- **Hillary Trump Debate Analysis+get_meme.ipynb** a fun little detour
+- **Hillary Trump Debate Analysis+get_meme.ipynb** is a fun little detour
 
 Enjoy!
