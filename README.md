@@ -2,7 +2,7 @@
 
 This repo includes everything I needed to make and use to eventually publish this analysis of Hillary and Trump's first debate [here](http://andresavalos.com/hillary-and-trump-the-debate-through-twitter.html).
 
-- **fetchprogram.py** is the Twitter scraping script. It connects to the Twiiter API and outputs the live stream of Tweets. Check the final line of this code for the keyword filter.
+- **fetchprogram.py** is the Twitter scraping script. It connects to the Twitter API and outputs the live stream of Tweets. Check the final line of this code for the keyword filter.
 - **tweets.db** is the SQLite database that stores all the captured tweets. 
 - **convertcsv.py** is the Python script used to convert the SQL database to *.csv* format.
 - **Hillary Trump Debate Analysis.ipynb** is the IPython (or Jupyter) notebook used to explore the .csv file and generate the charts.
