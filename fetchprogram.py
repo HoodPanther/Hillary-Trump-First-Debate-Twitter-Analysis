@@ -5,11 +5,11 @@ import textblob
 import dataset
 import json
 
-TWITTER_APP_KEY =  "w1FU6mBiSDCh5vvQw93maL4Ar"
-TWITTER_APP_SECRET = "ShvAvuh91vKKIfnjA7DchDmN7eSR4kHFQC6RJx5VtJTjppsny1"
+TWITTER_APP_KEY =  ""
+TWITTER_APP_SECRET = ""
 
-TWITTER_KEY =  "34191911-aytuEY7N6BXflsXv0UbLD31pc1GIkN8EAmb8T3PGy"
-TWITTER_SECRET =  "3635DooRvx6LUEmUxKw2rw0LY6sKYJdpiW9oy78dGVV0p"
+TWITTER_KEY =  ""
+TWITTER_SECRET =  ""
 
 # esp = self.session.request('POST',
 #                             url,
